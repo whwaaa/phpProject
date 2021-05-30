@@ -1,0 +1,222 @@
+body{
+	height: 100%;
+	width: 100%;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+	background: rgb(247, 247, 247);
+}
+#log{
+	display: none;
+	position: fixed;
+	width: 40%;
+	height: 50px;
+	top: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: rgba(194,217,169,1);
+	border-radius: 10px;
+	font-family: myFirstFont;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 50px;
+	z-index: 30;
+}
+.box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgb(51,52,57);
+	border-radius: 40px 40px 0 0;
+}
+
+.content{
+	position: relative;
+	margin: 210px auto 0 auto;
+	width: 90%;
+	height: 250px;
+}
+
+.mail{
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background: rgb(251,251,251);
+	border-radius: 35px;
+	font-family: myFirstFont;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 45px;
+	border: 1px solid #999999;
+}
+.mail-text {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 30%;
+	height: 40px;
+	border-radius: 35px 0 0 35px;
+	border-right: 2px #999999 solid;
+	box-sizing: border-box;
+	color: #8B8B8B;
+}
+.mail-ipt-div{
+	position: absolute;
+	top: 10px;
+	left: 30%;
+	width: 40%;
+	height: 40px;
+}
+.mail-ipt{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: none;
+	background: rgba(0,0,0,0);
+	font-family: myFirstFont;
+	font-size: 1.2rem;
+	text-align: right;
+	line-height: 40px;
+	color: #8B8B8B;
+}
+.mail-xyz-div{
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 30%;
+	height: 40px;
+	text-align: left;
+	color: #8B8B8B;
+	z-index: 1;
+}
+.mail-zyx-ipt-box{
+	position: absolute;
+	width: 100%;
+}
+.mail-zyx-ipt{
+	width: 100%;
+	font-family: myFirstFont;
+	font-size: 1.2rem;
+	text-align: left;
+	line-height: 40px;
+	color: #8B8B8B;
+	border: none;
+	outline: none;
+	background: rgba(0,0,0,0);
+}
+.mail-xyz-box{
+	font-size: 1.2rem;
+	display: none;
+	border-radius: 35px;
+	border: 5px solid #999999;
+}
+.mail-xyz1{
+	width: 100%;
+	height: 50px;
+	background: rgb(251,251,251);
+	border-radius: 0 35px 0 0;
+}
+.mail-xyz{
+	width: 100%;
+	height: 50px;
+	background: rgb(251,251,251);
+	border-top: 1px white solid;
+}
+.mail-xyz-end{
+	width: 100%;
+	height: 50px;
+	background: rgb(251,251,251);
+	border-top: 1px white solid;
+	border-radius: 0 0 25px 25px;
+}
+.verif{
+	position: relative;
+	margin-top: 10px;
+	width: 100%;
+	height: 60px;
+	background: rgb(251,251,251);
+	border-radius: 35px;
+	font-family: myFirstFont;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #999999;
+}
+.verif-text{
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 30%;
+	height: 40px;
+	border-radius: 35px 0 0 35px;
+	border-right: 2px #999999 solid;
+	box-sizing: border-box;
+	color: #8B8B8B;
+}
+.verif-ipt-div{
+	position: absolute;
+	top: 10px;
+	left: 30%;
+	width: 30%;
+	height: 40px;
+}
+.verif-ipt{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: none;
+	background: rgba(0,0,0,0);
+	font-family: myFirstFont;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 40px;
+	color: #8B8B8B;
+}
+
+.verif-button:active{
+	background-color: rgb(247, 247, 247);;
+}
+.verif-button{
+	position: absolute;
+	top: 73px;
+	right: 0;
+	width: 40%;
+	height: 60px;
+	text-align: center;
+	background-color: #dedede;
+	border-radius: 0 35px 35px 0;
+	border: none;
+	outline: none;
+	line-height: 60px;
+	font-size: 1.2rem;
+	color: #525252;
+}
+
+.submit-div{
+	position: absolute;
+	top: 170px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+	height: 40px;
+	background: #dedede;
+	border-radius: 25px;
+	font-family: myFirstFont;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 40px;
+	/*color: #8B8B8B;*/
+	color: #525252;
+}
+.submit-div:active{
+	background-color: rgb(251,251,251);
+}

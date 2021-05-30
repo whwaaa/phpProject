@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="resources/js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="resources/js/fingerprint2.js"></script>
+    <script type="text/javascript" src="./resources/js/index.js"></script>
+</head>
+<body>
+<form id="loginSubmit" method="post" action="valVerCode.php">
+    <input id="browserID" type="hidden" name="browserID" >
+    邮&nbsp;&nbsp;&nbsp;箱：<input id="email" type="text" name="email" value="" placeholder="请输入邮箱地址"/>
+    <input id="getVerCode" type="button" value="获取验证码" />
+    <br>
+    <p  style="color:red;">验证码好像不太对哇，重新获取新的试试</p>
+    验证码：<input type="text" value="" name="verCode" placeholder="请输入验证码">
+    <input id="loginSub" type="submit" value="登录">
+</form>
+
+
+</body>
+</html>
